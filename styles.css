@@ -2,14 +2,128 @@
     margin: 0;
     font-family: sans-serif;
 }
-.body{
-    background-color: wheat;
+.Header{
+    height: 670px;
+    background-image: url("./images/docs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
-h1{
-    color: pink;
+.logo{
+    margin-left: 170px;
+    margin-top: -590px;
+    display: flex;
+}
+.txtheader{
+    margin-left: 120px;
+    margin-top: -590px;
+    display: flex;
+    gap: 30px;
+}
+.mainbt{
+    margin-left: 300px;
+    margin-top: -590px;
+}
+.phys{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.phys1{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.button1{
+    color: white;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+}
+.meeting{
+    margin-left: -1060px;
+    margin-top: 30px;
+}
+.meet{
+    color: white;
     font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.4;
 }
-.p{
-    color: violet;
-    font-size: 25px;
+.meet2{
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 1.3;
+    margin-top: 50px;
+}
+.buttons{
+    margin-top: 400px;
+    margin-left: -320px;
+    display: flex;
+    gap: 12px;
+}
+.button2{
+    background-color: #23A6F0;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.button3{
+    background: transparent;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.booka{
+    margin-left: 480px;
+    margin-top: 100px;
+}
+.boxinp{
+    background-color: white;
+    width: 260px;
+    height: 550px;
+    border-radius: 10px;
+}
+.booking{
+    color: #252B42;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.lbls{
+    margin-top: 22px;
+    margin-left: 40px;
+}
+.inpts{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.nam{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inpp{
+    height: 40px;
+}
+.bookk{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.button4{
+    width: 180px;
+    height: 50px;
+    background-color: #23A6F0;
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
