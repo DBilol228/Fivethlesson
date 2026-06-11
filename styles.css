@@ -194,8 +194,6 @@
     font-weight: bold;
     margin-top: 25px;
 }
-
-
 .kartochka {
     background-color: #ffffff;
     width: 300px;
@@ -277,8 +275,201 @@
 .otvet {
     font-size: 14px;
     color: #737373;
-    margin: 0px;
     line-height: 18px;
+}
+.tarif1 {
+    background-color: #ffffff;
+    width: 240px;
+    padding: 40px;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: -5px;
+}
+.tarif2 {
+    background-color: #252b42;
+    width: 260px;
+    padding: 70px 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.tarif3 {
+    background-color: #ffffff;
+    width: 240px;
+    padding: 40px;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    text-align: center; 
+}
+.nazvanie {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252b42;
+    margin: 0px 0px 10px 0px;
+}
+.tarif2 {
+    color: white;
+}
+.nazvanie{
+    color: white;
+}
+.info {
+    font-size: 14px;
+    color: #737373;
+    margin: 0px 0px 30px 0px;
+    font-weight: bold;
+}
+.tarif2 {
+    color: white;
+}
+.info {
+    color: white;
+}
+.tsena {
+    margin-bottom: 30px;
+}
+.summa {
+    font-size: 48px;
+    font-weight: bold;
+    color: #23a6f0;
+}
+.znak {
+    font-size: 24px;
+    font-weight: bold;
+    color: #23a6f0;
+}
+.vremya {
+    font-size: 14px;
+    color: #8ec2f2;
+    margin: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+.stroka {
+    text-align: left;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.znachok {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.punkt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #737373;
+}
+.tarif2 .punkt {
+    color: #ffffff;
+}
+.knopka {
+    background-color: #23A6F0;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.podval {
+    font-family: Arial, sans-serif;
+}
+.vverh {
+    background-color: #252b42;
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tekstblok {
+    width: 450px;
+}
+.zagolovok1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+}
+.opisanie1 {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+}
+.forma {
+    display: flex;
+}
+.pole {
+    background-color: #f9f9f9;
+    color: #737373;
+    padding: 18px 25px;
+    font-size: 14px;
+    width: 250px;
+    border-radius: 5px 0px 0px 5px;
+    display: inline-block;
+}
+.knopka5 {
+    background-color: #23a6f0;
+    color: #ffffff;
+    padding: 18px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+    display: inline-block;
+}
+.niz {
+    background-color: #fafafa;
+    padding: 60px 120px 40px 120px;
+}
+.setka {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.kolonka {
+    width: 200px;
+}
+.zagolovok2 {
+    color: #252b42;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 25px 0px;
+}
+.stroka {
+    color: #737373;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 0px 12px 0px;
+    font-weight: bold;
+}
+.sotsseti {
+    display: flex;
+    margin-top: 20px;
+}
+.ikonka {
+    font-size: 22px;
+    margin-right: 20px;
+}
+.kopirait {
+    color: #737373;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+}
+.glavniy2ph{
+    display: none;
+}
+.glavniy3ph{
+    display: none;
+}
+.sekciaph{
+    display: none;
+}
+.getinph{
+    display: none;
 }
 
 
@@ -391,5 +582,51 @@
     }
     .glavniy2{
         display: none;
+    }
+    .sekcia{
+        display: none;
+    }
+    .podval{
+        display: none;
+    }
+    .glavniy2ph{
+        display: block;
+        background-color: white;
+        text-align: center;
+    }
+    .glavniy3ph{
+        display: block;
+        background-color: white;
+        text-align: center;
+    }
+    .sekciaph{
+        display: block;
+        background-color: white;
+        text-align: center;
+    }
+    .getinph{
+    display: block;
+    }
+    .txtph{
+        text-align: center;
+        background-color: #252B42;
+        width: 100%;
+        height: 180px;
+    }
+    .getph{
+        color: white;
+        padding-top: 40px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .knopkaph{
+        background-color: #23A6F0;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 30px;
+    }
+    .inppp{
+        height: 30px;
     }
 }
